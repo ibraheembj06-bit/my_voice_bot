@@ -1,0 +1,42 @@
+# ======================
+# Node.js Git Ignore
+# ======================
+
+# Environment variables
+.env
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and cache
+dist/
+build/
+.cache/
+.tmp/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Audio or media files (optional)
+*.mp3
+*.wav
+
+# Python cache (in case mixed project)
+__pycache__/
+*.pyc
